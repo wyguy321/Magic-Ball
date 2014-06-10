@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD663AAF19046B480002C44A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD663AAE19046B480002C44A /* Foundation.framework */; };
+		AD663AB119046B480002C44A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD663AB019046B480002C44A /* CoreGraphics.framework */; };
+		AD663AB319046B480002C44A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD663AB219046B480002C44A /* UIKit.framework */; };
+		AD663AB919046B480002C44A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD663AB719046B480002C44A /* InfoPlist.strings */; };
+		AD663ABB19046B480002C44A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD663ABA19046B480002C44A /* main.m */; };
+		AD663ABF19046B480002C44A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD663ABE19046B480002C44A /* AppDelegate.m */; };
+		AD663AC219046B480002C44A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD663AC019046B480002C44A /* Main.storyboard */; };
+		AD663AC519046B480002C44A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD663AC419046B480002C44A /* ViewController.m */; };
+		AD663AC719046B480002C44A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD663AC619046B480002C44A /* Images.xcassets */; };
+		AD663ACE19046B480002C44A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD663ACD19046B480002C44A /* XCTest.framework */; };
+		AD663ACF19046B480002C44A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD663AAE19046B480002C44A /* Foundation.framework */; };
+		AD663AD019046B480002C44A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD663AB219046B480002C44A /* UIKit.framework */; };
+		AD663AD819046B480002C44A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD663AD619046B480002C44A /* InfoPlist.strings */; };
+		AD663ADA19046B480002C44A /* Magic_ballTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD663AD919046B480002C44A /* Magic_ballTests.m */; };
+		AD663AE5190483C00002C44A /* THMagicBall.m in Sources */ = {isa = PBXBuildFile; fileRef = AD663AE4190483C00002C44A /* THMagicBall.m */; };
+		AD663AE71904BB320002C44A /* crystal_ball.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD663AE61904BB320002C44A /* crystal_ball.mp3 */; };
+		AD663AE91904BB800002C44A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD663AE81904BB800002C44A /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD663AD119046B480002C44A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD663AA319046B470002C44A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD663AAA19046B480002C44A;
+			remoteInfo = "Magic-ball";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD663AAB19046B480002C44A /* Magic-ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic-ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD663AAE19046B480002C44A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD663AB019046B480002C44A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD663AB219046B480002C44A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD663AB619046B480002C44A /* Magic-ball-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Magic-ball-Info.plist"; sourceTree = "<group>"; };
+		AD663AB819046B480002C44A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD663ABA19046B480002C44A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD663ABC19046B480002C44A /* Magic-ball-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Magic-ball-Prefix.pch"; sourceTree = "<group>"; };
+		AD663ABD19046B480002C44A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD663ABE19046B480002C44A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD663AC119046B480002C44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD663AC319046B480002C44A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD663AC419046B480002C44A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD663AC619046B480002C44A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AD663ACC19046B480002C44A /* Magic-ballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic-ballTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD663ACD19046B480002C44A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AD663AD519046B480002C44A /* Magic-ballTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Magic-ballTests-Info.plist"; sourceTree = "<group>"; };
+		AD663AD719046B480002C44A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD663AD919046B480002C44A /* Magic_ballTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Magic_ballTests.m; sourceTree = "<group>"; };
+		AD663AE3190483C00002C44A /* THMagicBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THMagicBall.h; sourceTree = "<group>"; };
+		AD663AE4190483C00002C44A /* THMagicBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THMagicBall.m; sourceTree = "<group>"; };
+		AD663AE61904BB320002C44A /* crystal_ball.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = crystal_ball.mp3; path = ../../../Downloads/crystal_ball.mp3; sourceTree = "<group>"; };
+		AD663AE81904BB800002C44A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD663AA819046B480002C44A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD663AE91904BB800002C44A /* AudioToolbox.framework in Frameworks */,
+				AD663AB119046B480002C44A /* CoreGraphics.framework in Frameworks */,
+				AD663AB319046B480002C44A /* UIKit.framework in Frameworks */,
+				AD663AAF19046B480002C44A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD663AC919046B480002C44A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD663ACE19046B480002C44A /* XCTest.framework in Frameworks */,
+				AD663AD019046B480002C44A /* UIKit.framework in Frameworks */,
+				AD663ACF19046B480002C44A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD663AA219046B470002C44A = {
+			isa = PBXGroup;
+			children = (
+				AD663AB419046B480002C44A /* Magic-ball */,
+				AD663AD319046B480002C44A /* Magic-ballTests */,
+				AD663AAD19046B480002C44A /* Frameworks */,
+				AD663AAC19046B480002C44A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD663AAC19046B480002C44A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD663AAB19046B480002C44A /* Magic-ball.app */,
+				AD663ACC19046B480002C44A /* Magic-ballTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD663AAD19046B480002C44A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD663AE81904BB800002C44A /* AudioToolbox.framework */,
+				AD663AAE19046B480002C44A /* Foundation.framework */,
+				AD663AB019046B480002C44A /* CoreGraphics.framework */,
+				AD663AB219046B480002C44A /* UIKit.framework */,
+				AD663ACD19046B480002C44A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD663AB419046B480002C44A /* Magic-ball */ = {
+			isa = PBXGroup;
+			children = (
+				AD663AE61904BB320002C44A /* crystal_ball.mp3 */,
+				AD663AC019046B480002C44A /* Main.storyboard */,
+				AD663AC319046B480002C44A /* ViewController.h */,
+				AD663AC419046B480002C44A /* ViewController.m */,
+				AD663AC619046B480002C44A /* Images.xcassets */,
+				AD663AB519046B480002C44A /* Supporting Files */,
+				AD663AE3190483C00002C44A /* THMagicBall.h */,
+				AD663AE4190483C00002C44A /* THMagicBall.m */,
+			);
+			path = "Magic-ball";
+			sourceTree = "<group>";
+		};
+		AD663AB519046B480002C44A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD663ABD19046B480002C44A /* AppDelegate.h */,
+				AD663ABE19046B480002C44A /* AppDelegate.m */,
+				AD663AB619046B480002C44A /* Magic-ball-Info.plist */,
+				AD663AB719046B480002C44A /* InfoPlist.strings */,
+				AD663ABA19046B480002C44A /* main.m */,
+				AD663ABC19046B480002C44A /* Magic-ball-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD663AD319046B480002C44A /* Magic-ballTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD663AD919046B480002C44A /* Magic_ballTests.m */,
+				AD663AD419046B480002C44A /* Supporting Files */,
+			);
+			path = "Magic-ballTests";
+			sourceTree = "<group>";
+		};
+		AD663AD419046B480002C44A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD663AD519046B480002C44A /* Magic-ballTests-Info.plist */,
+				AD663AD619046B480002C44A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD663AAA19046B480002C44A /* Magic-ball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD663ADD19046B480002C44A /* Build configuration list for PBXNativeTarget "Magic-ball" */;
+			buildPhases = (
+				AD663AA719046B480002C44A /* Sources */,
+				AD663AA819046B480002C44A /* Frameworks */,
+				AD663AA919046B480002C44A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Magic-ball";
+			productName = "Magic-ball";
+			productReference = AD663AAB19046B480002C44A /* Magic-ball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD663ACB19046B480002C44A /* Magic-ballTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD663AE019046B480002C44A /* Build configuration list for PBXNativeTarget "Magic-ballTests" */;
+			buildPhases = (
+				AD663AC819046B480002C44A /* Sources */,
+				AD663AC919046B480002C44A /* Frameworks */,
+				AD663ACA19046B480002C44A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD663AD219046B480002C44A /* PBXTargetDependency */,
+			);
+			name = "Magic-ballTests";
+			productName = "Magic-ballTests";
+			productReference = AD663ACC19046B480002C44A /* Magic-ballTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD663AA319046B470002C44A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = wyatt;
+				TargetAttributes = {
+					AD663ACB19046B480002C44A = {
+						TestTargetID = AD663AAA19046B480002C44A;
+					};
+				};
+			};
+			buildConfigurationList = AD663AA619046B470002C44A /* Build configuration list for PBXProject "Magic-ball" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD663AA219046B470002C44A;
+			productRefGroup = AD663AAC19046B480002C44A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD663AAA19046B480002C44A /* Magic-ball */,
+				AD663ACB19046B480002C44A /* Magic-ballTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD663AA919046B480002C44A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD663AC719046B480002C44A /* Images.xcassets in Resources */,
+				AD663AB919046B480002C44A /* InfoPlist.strings in Resources */,
+				AD663AE71904BB320002C44A /* crystal_ball.mp3 in Resources */,
+				AD663AC219046B480002C44A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD663ACA19046B480002C44A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD663AD819046B480002C44A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD663AA719046B480002C44A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD663AE5190483C00002C44A /* THMagicBall.m in Sources */,
+				AD663AC519046B480002C44A /* ViewController.m in Sources */,
+				AD663ABF19046B480002C44A /* AppDelegate.m in Sources */,
+				AD663ABB19046B480002C44A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD663AC819046B480002C44A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD663ADA19046B480002C44A /* Magic_ballTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD663AD219046B480002C44A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD663AAA19046B480002C44A /* Magic-ball */;
+			targetProxy = AD663AD119046B480002C44A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD663AB719046B480002C44A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD663AB819046B480002C44A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AD663AC019046B480002C44A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD663AC119046B480002C44A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD663AD619046B480002C44A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD663AD719046B480002C44A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD663ADB19046B480002C44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD663ADC19046B480002C44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD663ADE19046B480002C44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Magic-ball/Magic-ball-Prefix.pch";
+				INFOPLIST_FILE = "Magic-ball/Magic-ball-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD663ADF19046B480002C44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Magic-ball/Magic-ball-Prefix.pch";
+				INFOPLIST_FILE = "Magic-ball/Magic-ball-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AD663AE119046B480002C44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Magic-ball.app/Magic-ball";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Magic-ball/Magic-ball-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Magic-ballTests/Magic-ballTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AD663AE219046B480002C44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Magic-ball.app/Magic-ball";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Magic-ball/Magic-ball-Prefix.pch";
+				INFOPLIST_FILE = "Magic-ballTests/Magic-ballTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD663AA619046B470002C44A /* Build configuration list for PBXProject "Magic-ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD663ADB19046B480002C44A /* Debug */,
+				AD663ADC19046B480002C44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD663ADD19046B480002C44A /* Build configuration list for PBXNativeTarget "Magic-ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD663ADE19046B480002C44A /* Debug */,
+				AD663ADF19046B480002C44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD663AE019046B480002C44A /* Build configuration list for PBXNativeTarget "Magic-ballTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD663AE119046B480002C44A /* Debug */,
+				AD663AE219046B480002C44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD663AA319046B470002C44A /* Project object */;
+}
